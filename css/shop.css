@@ -67,8 +67,6 @@ h3 {
 
 .sticky {
     width: 100%;
-    position: -webkit-sticky;
-    position: sticky;
     top: 0;
     padding: 10px 16px;
     background-color: #555;
