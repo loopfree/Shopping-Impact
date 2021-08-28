@@ -1,3 +1,13 @@
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #122b7d, 0 0 40px #122b7d, 0 0 50px #122b7d, 0 0 60px #122b7d, 0 0 70px #122b7d;
+    }
+    
+    to {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #122b7d, 0 0 40px #122b7d, 0 0 50px #122b7d, 0 0 60px #122b7d, 0 0 70px #122b7d;
+    }
+}
+
 html{
     padding: 0;
     margin: 0;
@@ -9,6 +19,8 @@ body{
     margin: 0;
     height: 100%;
     background-image: url("https://upload-os-bbs.mihoyo.com/upload/2021/03/01/96734061/e4627fe79a4b23c153df45d8244ce85c_8985210134192762905.png?x-oss-process=image/resize,s_740/quality,q_80/auto-orient,0/interlace,1/format,jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 a{
@@ -24,15 +36,22 @@ a{
 
 #title-content{
     display: flex;
-    background-color: darkgrey;
+    background-color: rgba(169, 169, 169, 0.8);
     width: 20%;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     padding: 10px;
     text-align: justify;
+}
 
-    opacity: 0.6;
+.content-opacity{
+    opacity: 0.8;
+}
+
+#paimon{
+    height: 200px;
+    opacity: 1;
 }
 
 #navbar-content{
@@ -43,6 +62,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    animation: glow 1s ease-in-out infinite alternate;
 }
 
 .navbar-item{
@@ -50,6 +70,7 @@ a{
     font-size: 1.5em;
     text-align: center;
     height: 40px;
+    margin-top: 3vh;
 }
 
 #navbar-img{
