@@ -10,7 +10,7 @@
 
 
 ## Screenshots
-![index](./img/index.jpg)
+![index](./img/main.jpg)
 ![promo](./img/promo.jpg)
 
 ## Technologies
