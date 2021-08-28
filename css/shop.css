@@ -5,6 +5,10 @@ body {
 p {
     text-align: left;
 }
+
+h3 {
+    text-align: center;
+}
   
 .flip-card {
     background-color: transparent;
