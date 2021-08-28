@@ -1,0 +1,57 @@
+html{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-image: url("https://upload-os-bbs.mihoyo.com/upload/2021/03/01/96734061/e4627fe79a4b23c153df45d8244ce85c_8985210134192762905.png?x-oss-process=image/resize,s_740/quality,q_80/auto-orient,0/interlace,1/format,jpg");
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+#content{
+    display: flex;
+    height: 100%;
+}
+
+#title-content{
+    display: flex;
+    background-color: darkgrey;
+    width: 20%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    text-align: justify;
+
+    opacity: 0.6;
+}
+
+#navbar-content{
+    width: 80%;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar-item{
+    width: 10%;
+    font-size: 1.5em;
+    text-align: center;
+    height: 40px;
+}
+
+#navbar-img{
+    width: 100%;
+}
