@@ -30,4 +30,5 @@ Website Url:
 - [x] Flip Card Effect
 - [ ] Adjust Text Font
 
+## Status
 Project is: _Still On Going_
