@@ -1,0 +1,31 @@
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+
+#header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar-item{
+    margin: 5px;
+}
+
+.announcement{
+    width: 80%;
+    border: 5px dotted #bbb;
+    margin: 10px 0 10px 0;
+}
+
+.code-gift{
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.code-gift-img{
+    height: 50px;
+}
