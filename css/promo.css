@@ -5,26 +5,41 @@
     max-width: 300px;
   }
   
-  .container {
-    padding: 2px 16px;
-    background-color: #f1f1f1;
-  }
-  
-  .promo {
-    background: #ccc;
-    padding: 3px;
-  }
-  
-  .expire {
-    color: red;
-  }
+.container {
+  padding: 2px 16px;
+  background-color: #f1f1f1;
+}
 
-  .photo {
-    width: 100%;
-    height: auto;
-  }
+.promo {
+  background: #ccc;
+  padding: 3px;
+}
 
-  .line1 {
-    display: flex;
-    justify-content: space-evenly;
-  }
+.expire {
+  color: red;
+}
+
+.photo {
+  width: 100%;
+  height: auto;
+}
+
+.line1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.line2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 10px 16px;
+  background-color: #555;
+  color: #f1f1f1;
+  font-size: 20px;
+}
