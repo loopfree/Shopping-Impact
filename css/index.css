@@ -9,6 +9,8 @@ body{
     margin: 0;
     height: 100%;
     background-image: url("https://upload-os-bbs.mihoyo.com/upload/2021/03/01/96734061/e4627fe79a4b23c153df45d8244ce85c_8985210134192762905.png?x-oss-process=image/resize,s_740/quality,q_80/auto-orient,0/interlace,1/format,jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 a{
@@ -24,15 +26,22 @@ a{
 
 #title-content{
     display: flex;
-    background-color: darkgrey;
+    background-color: rgba(169, 169, 169, 0.8);
     width: 20%;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     padding: 10px;
     text-align: justify;
+}
 
-    opacity: 0.6;
+.content-opacity{
+    opacity: 0.8;
+}
+
+#paimon{
+    height: 200px;
+    opacity: 1;
 }
 
 #navbar-content{
