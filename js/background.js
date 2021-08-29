@@ -44,7 +44,8 @@ class Particle {
        		this.directionY = rnd(1, 5);
        	}
 
-       	this.directionY = clampNum(this.directionY + rndFloat(-0.5, 0.5), 1, 5);
+       	this.directionY = clampNum(this.directionY + rndFloat(-0.5, 0.5), 3, 5);
+       	this.directionX = clampNum(this.directionX + rndFloat(-0.5, 0.5), -1, 1);
 
         // move particle
         this.x += this.directionX;
@@ -71,7 +72,7 @@ function init() {
         let size = rndFloat(0, 5);
         let x = rnd(0, canvWidth);
         let y = rndFloat(0, canvHeight);
-        let directionX = 0;
+        let directionX = rndFloat(-1, 1);
         let directionY = rndFloat(3, 5);
         let color = "rgba(255, 255, 255, 0.5)";
 
