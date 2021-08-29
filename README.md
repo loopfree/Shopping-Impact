@@ -7,6 +7,7 @@
 * [Technologies](#technologies)
 * [Url](#url)
 * [Project Status](#project-status)
+* [Images Credit](#images-credit)
 * [Contributors](#contributors)
 
 ## Note
@@ -27,6 +28,10 @@ Website Url: https://loopfree.github.io/Shopping-Impact/
 
 ## Project Status
 Project is: _Finished_
+
+## Images Credit
+* Main page   : https://www.instagram.com/p/CL3EKgkFdvR/
+* Card images : https://www.deviantart.com/akaseven
 
 ## Contributors
 
