@@ -5,7 +5,6 @@
 * [Website Interface](#website-interface)
 * [Technologies](#technologies)
 * [Url](#url)
-* [To Do List](#to-do-list)
 * [Project Status](#project-status)
 
 
@@ -21,16 +20,6 @@
 
 ## Url
 Website Url:
-
-## To Do List
-- [x] Frontend Index
-- [x] Frontend Shop
-- [x] Frontend Gacha
-- [x] Frontend Promo
-- [x] Particle Vanilla Background
-- [x] Flip Card Effect
-- [x] Adjust Text Font & Size
-- [x] Gacha Simulator
 
 ## Project Status
 Project is: _Finished_
