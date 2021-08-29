@@ -49,14 +49,14 @@ a{
 }
 
 .gacha-result-img{
-    height: 252.5px;
-    width: 180px;
+    width: 219.2px;
+    height: 438.4px;
     visibility: hidden;
 }
 
 #gacha-result-mask{
-    height: 252.5px;
-    width: 180px;
+    width: 219.2px;
+    height: 438.4px;
     overflow: hidden;
 }
 
