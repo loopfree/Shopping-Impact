@@ -41,11 +41,12 @@ class Particle {
 
        	if(this.y > canvas.height) {
        		this.y = 0;
-       		this.directionY = rnd(1, 5);
+       		this.directionY = rndFloat(1, 5);
+       		this.directionX = rndFloat(-5, 5);
+       		this.x = rndFloat(0, canvWidth);
        	}
 
        	this.directionY = clampNum(this.directionY + rndFloat(-0.5, 0.5), 3, 5);
-       	this.directionX = clampNum(this.directionX + rndFloat(-0.5, 0.5), -5, 5);
 
         // move particle
         this.x += this.directionX;
