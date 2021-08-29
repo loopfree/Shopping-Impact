@@ -27,9 +27,10 @@ Website Url:
 - [x] Frontend Shop
 - [x] Frontend Announcement
 - [x] Frontend Promo
-- [ ] Particle Vanilla Background
+- [x] Particle Vanilla Background
 - [x] Flip Card Effect
-- [ ] Adjust Text Font
+- [x] Adjust Text Font
+- [ ] Gacha Simulator
 
 ## Project Status
 Project is: _Still On Going_
