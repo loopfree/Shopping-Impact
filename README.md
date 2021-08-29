@@ -30,6 +30,6 @@ Project is: _Finished_
 
 ## Contributors
 
-<a href="https://github.com/mkamadeus/nicscraper/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=mkamadeus/nicscraper" />
+<a href="https://github.com/loopfree/Shopping-Impact/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=loopfree/nicscraper" />
 </a>
