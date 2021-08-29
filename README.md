@@ -11,7 +11,8 @@
 * [Contributors](#contributors)
 
 ## Note
-Might take a while to load all the images on the website.
+* Might take a while to load all the images on the website.
+* Use chrome for optimal result.
 
 ## Website Interface
 ![index](./img/main.jpg)
