@@ -31,5 +31,5 @@ Project is: _Finished_
 ## Contributors
 
 <a href="https://github.com/loopfree/Shopping-Impact/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=loopfree/nicscraper" />
+  <img src="https://contrib.rocks/image?repo=loopfree/Shopping-Impact" />
 </a>
