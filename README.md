@@ -25,12 +25,12 @@ Website Url:
 ## To Do List
 - [x] Frontend Index
 - [x] Frontend Shop
-- [x] Frontend Announcement
+- [x] Frontend Gacha
 - [x] Frontend Promo
 - [x] Particle Vanilla Background
 - [x] Flip Card Effect
-- [x] Adjust Text Font
-- [ ] Gacha Simulator
+- [x] Adjust Text Font & Size
+- [x] Gacha Simulator
 
 ## Project Status
-Project is: _Still On Going_
+Project is: _Finished_
