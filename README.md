@@ -1,5 +1,5 @@
 # Shopping Impact
-> A website to shop genshin impact character, getting new genshin impact referal code in announcement, and getting promos (it's a joke of couse). Weapon shopping coming soon. Map details coming soon. Boss details information coming soon.
+> A website to shop genshin impact character, a simple gacha simulator, and getting promos (it's a joke of couse). Weapon shopping coming soon. Map details coming soon. Boss details information coming soon.
 
 ## Content List
 * [Website Interface](#website-interface)
