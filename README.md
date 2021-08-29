@@ -26,7 +26,7 @@ Website Url:
 - [x] Frontend Shop
 - [x] Frontend Announcement
 - [x] Frontend Promo
-- [ ] Particle Vanilla
+- [ ] Particle Vanilla Background
 - [x] Flip Card Effect
 - [ ] Adjust Text Font
 
