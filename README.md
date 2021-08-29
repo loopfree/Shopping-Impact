@@ -1,16 +1,17 @@
 # Shopping Impact
-> A website to shop genshin impact character, getting new genshin impact referal code in announcement, and getting promos (it's a joke of couse). Weapon shopping coming soon. Map details coming soon. Boss information coming soon.
+> A website to shop genshin impact character, getting new genshin impact referal code in announcement, and getting promos (it's a joke of couse). Weapon shopping coming soon. Map details coming soon. Boss details information coming soon.
 
 ## Content List
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Url](#url)
 * [To Do List](#to-do-list)
-* [Status](#status)
+* [Project Status](#project-status)
 
 
 ## Screenshots
 ![index](./img/main.jpg)
+![shop](./img/shop.jpg)
 ![promo](./img/promo.jpg)
 
 ## Technologies
@@ -30,5 +31,5 @@ Website Url:
 - [x] Flip Card Effect
 - [ ] Adjust Text Font
 
-## Status
+## Project Status
 Project is: _Still On Going_
