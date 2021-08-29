@@ -80,7 +80,7 @@ function animate() {
         particlesArray[i].update();
     }
     draw();
-    setTimeout(animate, 16);
+    setTimeout(animate, 33);
 }
 
 init();
