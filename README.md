@@ -10,7 +10,7 @@
 * [Contributors](#contributors)
 
 ## Note
-Might take a while to load all the images.
+Might take a while to load all the images on the website.
 
 ## Website Interface
 ![index](./img/main.jpg)
