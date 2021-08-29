@@ -36,20 +36,9 @@ class Particle {
             this.directionY = this.directionY;
         }
 
-        if(this.x > canvas.width) {
-        	this.directionX *= -1;
-        }
-
-        if(this.x < 0) { 
-        	this.directionX *= -1;
-       	}
-
        	if(this.y > canvas.height) {
-       		this.directionY *= -1;
-       	}
-
-       	if(this.y < 0) {
-       		this.directionY *= -1;
+       		this.y = 0;
+       		this.directionY = rnd(1, 5);
        	}
 
         // move particle
@@ -63,15 +52,13 @@ class Particle {
 // create particle
 function init() {
     particlesArray = [];
-    let numberOfParticles = 100;
+    let numberOfParticles = 10000;
     for (let i=0; i<numberOfParticles; i++) {
         let size = (Math.random() * 5) + 1;
-        // let x = 700//(Math.random() * ((innerWidth - size * 2)-(size * 2)) + size * 2);
-        // let y = 200//(Math.random() * ((innerHeight - size * 2)-(size * 2)) + size * 2);
         let x = rnd(0, innerWidth);
         let y = rnd(0, innerHeight);
-        let directionX = (Math.random() * 5) - 3.5;
-        let directionY = (Math.random() * 5) - 3.5;
+        let directionX = 0;
+        let directionY = rnd(1, 5);
         let color = "rgba(255, 255, 255, 0.5)";
 
         particlesArray.push(new Particle(x, y, directionX, directionY, size, color));
