@@ -16,6 +16,10 @@ let rndFloat = function(min, max) {
 	return (Math.random() * (max - min)) + min;
 }
 
+let clampNum = function(num, min, max) {
+	return Math.max(min, Math.min(num, max));
+}
+
 // create particle
 class Particle {
     constructor(x, y, directionX, directionY, size, color) {
@@ -40,6 +44,8 @@ class Particle {
        		this.directionY = rnd(1, 5);
        	}
 
+       	this.directionY = clampNum(this.directionY + rndFloat(-0.5, 0.5), 1, 5);
+
         // move particle
         this.x += this.directionX;
         this.y += this.directionY;
@@ -60,7 +66,7 @@ function draw() {
 // create particle
 function init() {
     particlesArray = [];
-    let numberOfParticles = 1000;
+    let numberOfParticles = 300;
     for (let i=0; i<numberOfParticles; i++) {
         let size = rndFloat(0, 5);
         let x = rnd(0, canvWidth);
