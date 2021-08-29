@@ -45,8 +45,12 @@ a{
     text-align: justify;
 }
 
-.content-opacity{
+#name {
     opacity: 0.8;
+    display: block;
+    margin-left: 7%;
+    margin-right: auto;
+    width: 200%;
 }
 
 #paimon{
