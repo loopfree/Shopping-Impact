@@ -24,7 +24,7 @@ class Particle {
     draw() {
         ctx.beginPath();
         ctx.arc(this.x, this.y, this.size, 0, (Math.PI) * 2, false);
-        ctx.fillStyle = "#c0c3c4"
+        ctx.fillStyle = "rgba(255, 255, 255, 0.5)"
         ctx.fill();
     }
 
@@ -70,9 +70,9 @@ function init() {
         // let y = 200//(Math.random() * ((innerHeight - size * 2)-(size * 2)) + size * 2);
         let x = rnd(0, innerWidth);
         let y = rnd(0, innerHeight);
-        let directionX = (Math.random() * 5) - 2.5;
-        let directionY = (Math.random() * 5) - 2.5;
-        let color = "#c0c3c4";
+        let directionX = (Math.random() * 5) - 3.5;
+        let directionY = (Math.random() * 5) - 3.5;
+        let color = "rgba(255, 255, 255, 0.5)";
 
         particlesArray.push(new Particle(x, y, directionX, directionY, size, color));
     }
