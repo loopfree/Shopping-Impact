@@ -2,11 +2,15 @@
 > A website to shop genshin impact character, a simple gacha simulator, and getting promos (it's a joke of couse). Weapon shopping coming soon. Map details coming soon. Boss details information coming soon.
 
 ## Content List
+* [Note](#note)
 * [Website Interface](#website-interface)
 * [Technologies](#technologies)
 * [Url](#url)
 * [Project Status](#project-status)
+* [Contributors](#contributors)
 
+## Note
+Might take a while to load all the images.
 
 ## Website Interface
 ![index](./img/main.jpg)
@@ -19,7 +23,13 @@
 * JS
 
 ## Url
-Website Url:
+Website Url: https://loopfree.github.io/Shopping-Impact/
 
 ## Project Status
 Project is: _Finished_
+
+## Contributors
+
+<a href="https://github.com/mkamadeus/nicscraper/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=mkamadeus/nicscraper" />
+</a>
