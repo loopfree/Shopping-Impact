@@ -2,14 +2,14 @@
 > A website to shop genshin impact character, getting new genshin impact referal code in announcement, and getting promos (it's a joke of couse). Weapon shopping coming soon. Map details coming soon. Boss details information coming soon.
 
 ## Content List
-* [Screenshots](#screenshots)
+* [Website Interface](#website-interface)
 * [Technologies](#technologies)
 * [Url](#url)
 * [To Do List](#to-do-list)
 * [Project Status](#project-status)
 
 
-## Screenshots
+## Website Interface
 ![index](./img/main.jpg)
 ![shop](./img/shop.jpg)
 ![promo](./img/promo.jpg)
