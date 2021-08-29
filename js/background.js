@@ -75,12 +75,12 @@ function init() {
 
 // animation loop
 function animate() {
-	requestAnimationFrame(animate);
     ctx.clearRect(0,0,canvWidth, canvHeight);
     for (let i=0; i < particlesArray.length; i++) {
         particlesArray[i].update();
     }
     draw();
+    setTimeout(animate, 16);
 }
 
 init();
