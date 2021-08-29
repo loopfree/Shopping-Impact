@@ -1,0 +1,66 @@
+/* header */
+html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+  
+ body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+ }
+  
+a{
+    text-decoration: none;
+    color: #f1f1f1;
+    font-size: 1.2em;
+}
+
+.sticky {
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 10px 16px;
+    background-color: #555;
+    font-size: 20px;
+  }
+  
+#header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* content */
+
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+    text-align: center;
+}
+
+.gacha-result-img{
+    height: 252.5px;
+    width: 180px;
+    visibility: hidden;
+}
+
+#gacha-result-mask{
+    height: 252.5px;
+    width: 180px;
+    overflow: hidden;
+}
+
+#gacha-result-longer{
+    display: flex;
+    position: relative;
+}
